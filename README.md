@@ -18,4 +18,4 @@ This project includes several files:
 
 2) simulatedDataCode.R - R code to run the main analysis. It generates results table and three graphs that are reported in the supplementary material of the paper. It reads file simulatedDataSetForPaper.csv so the file should be available.
 
-3) 
+3) runCmd.sh - A linux script to parallel run the synthetic control method described in the paper.
