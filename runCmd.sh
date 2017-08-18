@@ -7,4 +7,4 @@ nohup R CMD BATCH --no-save '--args minFacID=251 maxFacID=300' SyntheticSimulate
 nohup R CMD BATCH --no-save '--args minFacID=301 maxFacID=350' SyntheticSimulated.r synLog7.Rout &
 nohup R CMD BATCH --no-save '--args minFacID=351 maxFacID=400' SyntheticSimulated.r synLog8.Rout &
 nohup R CMD BATCH --no-save '--args minFacID=401 maxFacID=450' SyntheticSimulated.r synLog9.Rout &
-nohup R CMD BATCH --no-save '--args minFacID=451 maxFacID=500' SyntheticSimulated.r synLog10.Rout &
+
