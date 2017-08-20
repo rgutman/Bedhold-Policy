@@ -21,3 +21,5 @@ This project includes several files:
 3) runCmd.sh - A linux script to parallel run the Synthetic Control method described in the paper.
 
 4) syntheticSimulated.r - This R code file runs the Synthetic Control method for acute hospitilization. It is meant to run in parallel on the simulated dataset in simulatedDataSetForPaper.csv for every 50 facilities in the state that experienced policy change. runCmd.sh includes the command line script. 
+
+5) syntheticSimulatedMort.r - This R code file runs the Synthetic Control method for mortality. It is meant to run in parallel on the simulated dataset in simulatedDataSetForPaper.csv for every 50 facilities in the state that experienced policy change. runCmd.sh includes the command line script. 
