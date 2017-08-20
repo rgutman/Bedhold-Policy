@@ -18,4 +18,6 @@ This project includes several files:
 
 2) simulatedDataCode.R - R code to run the main analysis. It generates results table and three graphs that are reported in the supplementary material of the paper. It reads file simulatedDataSetForPaper.csv so the file should be available.
 
-3) runCmd.sh - A linux script to parallel run the synthetic control method described in the paper.
+3) runCmd.sh - A linux script to parallel run the Synthetic Control method described in the paper.
+
+4) syntheticSimulated.r - This R code file runs the Synthetic Control method for acute hospitilization. It is meant to run in parallel on the simulated dataset in simulatedDataSetForPaper.csv for every 50 facilities in the state that experienced policy change. runCmd.sh includes the command line script. 
