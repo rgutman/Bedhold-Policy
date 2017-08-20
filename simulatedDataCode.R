@@ -524,9 +524,9 @@ upper2l = estAve2l + qt(0.975,estDef2l)*estSd2l
 lower2l = estAve2l + qt(0.025,estDef2l)*estSd2l
 
 #creating one table for overall results. This table is
-allRes = rbind(c(lower1, upper1, lower2,upper2), c(lower1s, upper1s, lower2s,upper2s), c(lower1l, upper1l, lower2l,upper2l))
+allRes = rbind(c(estAve1,lower1, upper1,estAve2, lower2,upper2), c(estAve1s, lower1s, upper1s, estAve2s, lower2s,upper2s), c(estAve1l, lower1l, upper1l, estAve2l, lower2l,upper2l))
 
-colnames(allRes) = c("lower 95 Hospitaliation","upper 95 Hospitaliation","lower 95 Mortality","upper 95 Mortality")
+colnames(allRes) = c("Estimate Hosp","lower 95 Hospitaliation","upper 95 Hospitaliation","Estimate Mort","lower 95 Mortality","upper 95 Mortality")
 rownames(allRes) = c("All Facilities", "Small Facilities", "Large Facilities")
 
 write.csv(round(allRes,4),"allPeriodRes.csv")
